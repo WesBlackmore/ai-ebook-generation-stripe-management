@@ -1,0 +1,19 @@
+{
+    "name": "wesblackmore/ai-ebook-generation-stripe-management",
+    "description": "AI eBook Generation Stripe Management: generic PHP Stripe payments, subscriptions, cancellation flow, and verified webhooks on SQLite.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*"
+    },
+    "autoload": {
+        "files": ["src/autoload.php"]
+    },
+    "scripts": {
+        "test": "php tools/selfcheck.php"
+    }
+}
